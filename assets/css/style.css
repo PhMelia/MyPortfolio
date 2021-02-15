@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #202627;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color:rgb(234, 244, 246)
+  }
+
+  header {
+    padding: 20px 35px;    
+    background-color: rgb(11, 44, 66);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+
+  header h1 {
+    border-bottom: 5px solid #cedfdf;
+    font-weight: bold;
+    font-size: 36px;
+    color: #cedfdf;
+    margin: 0;
+  }
+ 
+header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #cedfdf;
+  }
+  
+  /* Hero Style Start */
+.hero {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: flex-end;
+  background-image: url('../images/background6.jpg');
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color:#0a0a0a;
+  }
+
+.hero h2 {
+background-color: rgb(11, 44, 66);
+border-radius: 10px;
+font-weight: bold;
+font-size: 36px;
+color: #cedfdf;
+position: absolute;
+margin: 0 20px 30px 10px;
+padding: 10px 10px 10px 10px;
+}
+
+
+
+/* work showcase section */
+ .workshowcase {
+ border: 3px transparent;
+ display: flex;
+ flex: 1;
+ 
+  } 
+
+.workshowcase h2 {
+text-align: right;
+width: 10px;
+margin-top: 30px;
+margin-left: 245px;
+margin-bottom: 200;
+font-size: 30px;
+font-weight: normal;
+font-family:cursive;
+flex-wrap: wrap:
+}
+
+.workshowcase p {
+margin-top: 30px;
+margin-left: 140px;
+margin-bottom: 10px;
+width: 1000px;
+font-size: 16px;
+padding-left: 50px;
+border-left: solid rgb(8, 46, 56) 5px;
+}
+
+  
+.work  h2 {
+  text-align: right;
+  width: 10px;
+  margin-top: 30px;
+  margin-left: 245px;
+  margin-bottom: 80;
+  font-size: 30px;
+  font-weight: normal;
+  font-family:cursive;
+  }
+
+
+.mywork {
+  margin-top: 10px;
+  margin-left: 450px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../images/Elekta.jpg');
+  width: 855px;
+  height: 400px;
+  padding-left: 50px;  
+  border-left: solid rgb(17, 17, 17) 5px;
+  } 
+
+   .mywork  div {
+    margin-right: 70%;
+    background-color: cyan;
+    background-size:cover;
+    color:rgb(10, 10, 10);
+   }
+   
+   .gap100 {
+     padding:10px 10px 10px 10px;
+   }
+   
+.container {
+    text-align: right;
+    width: 10px;
+    margin-top: 30px;
+    margin-left: 299px;
+    margin-bottom: 30;
+    font-size: 30px;
+    font-weight: normal;
+    font-family:cursive;
+    flex-wrap: wrap;
+    }
+
+  .footer {
+      background: #fce138;
+      width: 100%;
+      padding: 40px 35px;
+    }
+    
+  .footer h2 {
+      display: inline;
+      color: #024e76;
+      font-size: 30px;
+      margin: 0;
+  }
+    
+  .footer div {
+      float: right;
+      line-height: 1.5;
+      text-align: right;
+    }
+    
+  .footer a {
+      color: #024e76;
+    }
+
+    .contact-info {
+      border: 3px transparent;
+      display: flex;
+      flex: 1;
+       } 
+
+       .contact-info h2 {
+        text-align: right;
+        width: 10px;
+        margin-top: 30px;
+        margin-left: 220px;
+        margin-bottom: 80;
+        font-size: 30px;
+        font-weight: normal;
+        font-family:cursive;
+        flex-wrap: wrap:
+        }
